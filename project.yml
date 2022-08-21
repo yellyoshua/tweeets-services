@@ -1,0 +1,5 @@
+packages:
+  - name: tweets
+    actions:
+      - name: get_tweets
+        runtime: 'nodejs:default'

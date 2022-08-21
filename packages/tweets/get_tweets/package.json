@@ -1,0 +1,13 @@
+{
+  "name": "get_tweets",
+  "version": "1.0.0",
+  "description": "Hello world: NodeJs",
+  "main": "get_tweets.js",
+  "scripts": {
+    "test": "jest --coverage --runInBand --forceExit --verbose false"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
