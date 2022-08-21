@@ -1,5 +1,11 @@
+environment:
+  ENV: production
 packages:
   - name: tweets
     actions:
       - name: get_tweets
         runtime: 'nodejs:default'
+        main: get_tweets.js
+        limits:
+          timeout: 3500
+          memory: 150
