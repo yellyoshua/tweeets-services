@@ -1,4 +1,4 @@
-function main(args) {
+export function main(args) {
   const argsList = Array.from(arguments);
   console.log('data', JSON.stringify(argsList, null, 2));
 
@@ -7,5 +7,3 @@ function main(args) {
   console.log(greeting)
   return { "body": greeting }
 }
-
-exports.main = main
