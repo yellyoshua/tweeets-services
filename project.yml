@@ -8,4 +8,4 @@ packages:
         main: get_tweets.js
         limits:
           timeout: 3500
-          memory: 150
+          memory: 128
